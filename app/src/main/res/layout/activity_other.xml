@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.feicui.notificationdemo.OtherActivity">
+
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拿到系统版本和设备信息"/>
+
+    <Button
+        android:id="@+id/btn_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拿到系统内存"/>
+
+    <Button
+        android:id="@+id/btn_cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拿到CPU信息"/>
+
+    <Button
+        android:id="@+id/btn_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拿到分辨率"/>
+
+    <Button
+        android:id="@+id/btn_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拿到基带版本与root权限"/>
+
+
+
+</LinearLayout>
